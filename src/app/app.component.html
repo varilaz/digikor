@@ -1,0 +1,57 @@
+<app-header></app-header>
+
+<button (click)="almenuOpen()" class="almenu">
+ <i class="fa fa-usb" style="font-size:24px;color:white"></i>
+</button>
+<div class="language form-group" style="position:fixed; z-index:10">
+     <!--<h2>{{ 'HOME.TITLE' | translate }}</h2>
+          <label>
+             {{ 'HOME.SELECT' | translate }}-->
+            <select class="selectBtn form-control" #langSelect (change)="translate.use(langSelect.value)">
+              <option class="options">EN</option>
+              <option class="options" selected>HU</option>
+            </select>
+    <!--</label>-->
+</div>
+<div *ngIf="almenu" class="almenuBody">
+  <div class="logoA">
+    <img src="assets/img/A.png">
+  </div>
+  <div class="logoR">
+    <img src="assets/img/RG.png">
+  </div>
+  <div class="logoI">
+    <img src="assets/img/in.png">
+  </div>
+  <div class="logoF">
+    <img src="assets/img/f.png">
+  </div>
+  <div class="logoT">
+    <img src="assets/img/Tw.png">
+  </div>
+</div>
+<div>
+  <a class="btn btn-info btn-lg searchBtn" (click)="searchAlmenuOpen()">
+      <span class="glyphicon glyphicon-search "></span>
+    </a>
+</div>
+<div class="searchAlmenuOpen" *ngIf="searchAlmenu">
+      <div class="input-group searchField">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" (click)="searchAction()"><span class="glyphicon glyphicon-search "></span></button>
+      </span>
+    </div>
+</div>
+<div class="">
+  <a href="#" class="btn btn-info btn-lg signs">
+    <span class="glyphicon glyphicon-log-in"></span>
+  </a>
+</div>
+
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+

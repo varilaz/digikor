@@ -1,0 +1,440 @@
+
+.site-header {
+  padding: 6px 0;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  background-color: #688ea4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+}
+
+.site-header__logoImg{
+    float:left;
+    position: absolute;
+    top:10px;
+    left: 135px;
+    width: 85px;
+    height:85px;
+    z-index: 12;
+    transition: all 1s ease;
+}
+
+
+ .site-header__btn-container {
+    position: absolute;
+    left: 100px;
+    top:0;
+    float: right;
+    list-style: none;
+    padding-right: 150px;
+    width:120px;
+    height:100px;
+    z-index: 12;
+    background-color:rgba(98, 137, 136, .8); 
+    transition: all 1s ease;
+  }
+
+.site_header_menucontainer{
+    margin-left:280px;
+    overflow: hidden;
+}
+
+.site_header_menucontainer a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.site-header__menu{
+    float:left;
+    padding-right: 15px;
+    list-style: none;
+}
+
+.site_header_menucontainer a:hover{
+    background-color: #628988;
+}
+
+a {
+    color: white ;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.hamburgerContainer{
+    display: none;
+}
+
+/*.icon {
+    display: none;
+}
+
+.icon:hover {
+
+    background-color: transparent !important;
+    position:absolute;
+    left: 20px;
+    top:8px;
+}*/
+
+
+ .homeContainer{
+        display: none;
+    }
+    .projectsContainer{
+        display: none;
+    }
+     .kutatokContainer{
+        display: none;
+    }
+
+    .publicationContainer{
+        display: none;
+    }
+
+    .kutatasContainer{
+        display: none;
+    }
+
+    .pressContainer{
+        display: none;
+    }
+
+    .kapcsolatContainer{
+        display: none;
+    }
+
+
+@media (max-width: 1300px) {
+/*
+    .site_header_menucontainer{
+        display: none;
+    }*/
+
+    .site_header_menucontainer a {
+        display: none;
+    }
+
+/*  .icon {
+    position: absolute;
+    left: 20px;
+    top:8px;
+    font-size: 24px;
+    font-style:bold;
+    display: block;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+  }*/
+
+  #nav-toggle { position: absolute; left: 25px;
+    top:14px; }
+
+    #nav-toggle { 
+       cursor: pointer; 
+       padding: 10px 35px 8px 0px; 
+      -webkit-animation: fadeInFromNone 0.4s ease-out;
+      -moz-animation: fadeInFromNone 0.4s ease-out;
+      -o-animation: fadeInFromNone 0.4s ease-out;
+      animation: fadeInFromNone 0.4s ease-out;
+    }
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    height: 3px;
+    width: 20px;
+    padding: -10px !important;
+    background: white;
+    position: absolute;
+    display: block;
+    content: '';
+    }
+    #nav-toggle span:before {
+    top: -7px; 
+    }
+    #nav-toggle span:after {
+    bottom: -7px;
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    transition: all 500ms ease-in-out;
+    }
+    #nav-toggle.active span {
+    background-color: transparent;
+    }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+    }
+    #nav-toggle.active span:before {
+    transform: rotate(45deg);
+    }
+    #nav-toggle.active span:after {
+    transform: rotate(-45deg);
+    }
+
+  .site_header_menucontainer.responsive {
+      position: relative;
+      margin-left:0px;
+      margin-top: 40px;
+      width: 100%;
+      background-color: rgba(104, 142, 164, .8);
+      -webkit-animation: fadeInFromNone 0.4s ease-out;
+      -moz-animation: fadeInFromNone 0.4s ease-out;
+      -o-animation: fadeInFromNone 0.4s ease-out;
+      animation: fadeInFromNone 0.4s ease-out;
+    }
+
+  .site_header_menucontainer.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    text-align: center;
+
+  }
+
+    .homeContainer{
+        display: block;
+        position: absolute;
+        left: 270px;
+        top:10px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-home{
+        font-size: 24px;
+    }
+    .projectsContainer{
+        display: block;
+        position: absolute;
+        left: 320px;
+        top:14px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-tasks{
+        font-size: 22px;
+    }
+     .kutatokContainer{
+        display: block;
+        position: absolute;
+        left: 370px;
+        top:10px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-users{
+        font-size: 22px;
+    }
+    .publicationContainer{
+        display: block;
+        position: absolute;
+        left: 420px;
+        top:10px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-leanpub{
+        font-size: 24px;
+    }
+    .kutatasContainer{
+        display: block;
+        position: absolute;
+        left: 470px;
+        top:10px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-flask{
+        font-size: 24px;
+    }
+
+    .pressContainer{
+        display: block;
+        position: absolute;
+        left: 520px;
+        top:13px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-newspaper-o{
+     font-size: 24px;
+    }
+
+     .kapcsolatContainer{
+        display: block;
+        position: absolute;
+        left: 570px;
+        top:13px;
+        -webkit-animation: fadeInFromNone 0.4s ease-out;
+        -moz-animation: fadeInFromNone 0.4s ease-out;
+        -o-animation: fadeInFromNone 0.4s ease-out;
+        animation: fadeInFromNone 0.4s ease-out;
+    }
+    .fa-chain{
+     font-size: 24px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+     .homeContainer{
+        display: none;
+    }
+    .projectsContainer{
+        display: none;
+    }
+     .kutatokContainer{
+        display: none;
+    }
+
+    .publicationContainer{
+        display: none;
+    }
+
+    .kutatasContainer{
+        display: none;
+    }
+
+    .pressContainer{
+        display: none;
+    }
+
+    .kapcsolatContainer{
+        display: none;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .site-header__logoImg{
+        float:left;
+        position: absolute;
+        top:8px;
+        left: 81px;
+        width: 42px;
+        height:42px;
+        z-index: 12;
+    }
+
+
+ .site-header__btn-container {
+        position: absolute;
+        left: 70px;
+        top:0;
+        padding-right: 0px;
+        width: 60px !important;
+        height: 50px !important;
+        background-color:rgba(98, 137, 136, .8); 
+  }
+}
+
+
+/**, *:before, *:after {
+  box-sizing: inherit;
+  padding:0px;
+  border:0px;
+  transition: all 1s ease;
+   -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}*/
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+

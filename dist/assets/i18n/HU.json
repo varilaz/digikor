@@ -1,0 +1,16 @@
+
+
+{
+  "MENU": {
+    "DIGIKOR": "DIGIKOR",
+    "PROJEKTEK": "PROJEKTEK",
+    "KUTATOK": "KUTATÓK",
+    "PUBLIKACIOK": "PUBLIKÁCIÓK",
+    "KUTATAS": "KONZULTÁCIÓ ÉS KUTATÁS",
+    "SAJTO": "SAJTÓ",
+    "KAPCSOLATOK": "KAPCSOLATOK"
+  },
+    "DIGIKOR": {
+    "TITLE": "Digitális Állam - Digitális Kormányzás"
+    }
+}

@@ -1,0 +1,242 @@
+
+.language{
+    float:right;
+    right: 20px;
+    top:10px;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.selectBtn{
+   background-color: rgba(104, 142, 164, 1);
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 52px;
+   color: white;
+   font-weight: 600;
+   -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.logoA{
+    width: 30px;
+    height: 30px;
+    right: 150px;
+    top: 55px;
+    position:fixed; 
+    z-index:10;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.logoR{
+    width: 30px;
+    height: 30px;
+    right: 185px;
+    top: 55px;
+    position:fixed; 
+    z-index:10;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.logoI{
+    width: 31px;
+    height: 31px;
+    right: 219px;
+    top: 55px;
+    position:fixed; 
+    z-index:10;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.logoF{
+    width: 30px;
+    height: 30px;
+    right: 254px;
+    top: 55px;
+    position:fixed; 
+    z-index:10;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.logoT{
+    width: 30px;
+    height: 30px;
+    right: 293px;
+    top: 58px;
+    position:fixed; 
+    z-index:10;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.almenu{
+    background: transparent;
+    color: white;
+    border: none;
+    z-index: 11;
+    position: fixed;
+    right: 157px;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.almenuBody{
+    background-color:rgba(255, 255, 255, .4);
+    top: 50px;
+    position:fixed; 
+    z-index:10;
+    right: 143px;
+    width: 185px;
+    height: 42px;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+.searchBtn{
+    right: 67px;
+    top: 4px;
+    position:fixed; 
+    z-index:12;
+    color:white;
+    background: transparent;
+    border: none;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.searchBtn:active{
+    background: transparent;
+    border:none;
+    box-shadow: none;
+}
+
+.searchAlmenuOpen{
+    background-color:rgba(255, 255, 255, .4);
+    top: 50px;
+    position:fixed; 
+    z-index:14;
+    right: 36px;
+    width: 264px;
+    height: 44px;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;   
+}
+
+.searchField{
+    width: 250px;
+    position:fixed; 
+    z-index:14;
+    right: 43px;
+    top: 55px;
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+.signs{
+    right: 104px;
+    top: 1px;
+    position:fixed; 
+    z-index:12;
+    background: transparent;
+    border: none;
+    transform: rotate(180deg);
+    -webkit-animation: fadeInFromNone 0.4s ease-out;
+    -moz-animation: fadeInFromNone 0.4s ease-out;
+    -o-animation: fadeInFromNone 0.4s ease-out;
+    animation: fadeInFromNone 0.4s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,103 @@
+  <header class="site-header">
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+         <!--  {{ 'MENU.SELECT' | translate }}
+          <ul class="">
+            <li routerLinkActive="active"> <a [routerLink]="['/users']">Belépés</a>
+            </li>
+          </ul>-->
+        </div>
+      </div>
+      
+      <div class="site-header__logoImg">
+        <img src="assets/img/Logo.png">
+      </div>
+      <!--<a class="icon" (click)="myFunction()" routerLinkActive="active"><i class="fa fa-bars"></i></a>-->
+      <a id="nav-toggle" (click)="myFunction()" routerLinkActive="active"><span></span></a>
+
+      <div class="site_header_menucontainer" id="myTopnav">
+
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="myFunction()">{{ 'MENU.DIGIKOR' | translate }}</a>
+
+                <a routerLink="/projektek" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.PROJEKTEK' | translate }}</a>
+
+                <a routerLink="/kutatok" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.KUTATOK' | translate }}</a>
+
+                <a routerLink="/publikaciok" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.PUBLIKACIOK' | translate }}</a>
+
+                <a routerLink="/kutatas" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.KUTATAS' | translate }}</a>
+
+                <a routerLink="/sajto" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.SAJTO' | translate }}</a>
+
+                <a routerLink="/kapcsolat" routerLinkActive="active" (click)="myFunction()">{{ 'MENU.KAPCSOLATOK' | translate }}</a>
+
+ 
+              
+        </div>
+        <!--<div class="site_header_menucontainer" id="myTopnav">
+          <ul class="">
+            <li class="site-header__menu" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+              <div class="site-header__menu-btn">
+                <a routerLink="/" >{{ 'MENU.DIGIKOR' | translate }}</a>
+              </div>
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a routerLink="/projektek">{{ 'MENU.PROJEKTEK' | translate }}</a>
+              </div> 
+            </li>  
+            <li class="site-header__menu" routerLinkActive="active">              
+              <div class="site-header__menu-btn">
+                <a routerLink="/kutatok">{{ 'MENU.KUTATOK' | translate }}</a>
+              </div> 
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a routerLink="/publikaciok">{{ 'MENU.PUBLIKACIOK' | translate }}</a>
+              </div>
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a routerLink="/kutatas">{{ 'MENU.KUTATAS' | translate }}</a>
+              </div>
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a routerLink="/sajto">{{ 'MENU.SAJTO' | translate }}</a>
+              </div>
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a routerLink="/kapcsolat">{{ 'MENU.KAPCSOLATOK' | translate }}</a>
+              </div>
+            </li>
+            <li class="site-header__menu" routerLinkActive="active">
+              <div class="site-header__menu-btn">
+                <a class="icon" (click)="myFunction()">&#9776;</a>
+              </div>
+            </li>
+          </ul>
+        </div>-->
+      <div class="homeContainer" >
+        <a routerLink="/" routerLinkActive="active" class=""><i class="fa fa-home"></i></a>
+      </div>
+      <div class="projectsContainer">
+        <a routerLink="/projektek" routerLinkActive="active"class=""><i class="fa fa-tasks"></i></a>
+      </div>
+       <div class="kutatokContainer">
+        <a routerLink="/kutatok" routerLinkActive="active" class=""><i class="fa fa-users"></i></a>
+      </div>
+      <div class="publicationContainer">
+        <a routerLink="/publikaciok" routerLinkActive="active" class=""><i class="fa fa-leanpub"></i></a>
+      </div>
+      <div class="kutatasContainer">
+        <a routerLink="/kutatas" routerLinkActive="active" class=""><i class="fa fa-flask"></i></a>
+      </div>
+      <div class="pressContainer">
+        <a routerLink="/sajto" routerLinkActive="active"><i class="fa fa-newspaper-o"></i></a>
+      </div>
+      <div class="kapcsolatContainer">
+        <a routerLink="/kapcsolat" routerLinkActive="active"><i class="fa fa-chain"></i></a>
+      </div>
+
+  </header>

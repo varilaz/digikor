@@ -1,0 +1,14 @@
+{
+  "MENU": {
+    "DIGIKOR": "DIGIKOR",
+    "PROJEKTEK": "PROJECTS",
+    "KUTATOK": "RESEARCHERS",
+    "PUBLIKACIOK": "PUBLICATION",
+    "KUTATAS": "CONSULTATION AND RESEARCH",
+    "SAJTO": "PRESS",
+    "KAPCSOLATOK": "CONTACS"
+  },
+  "DIGIKOR": {
+    "TITLE": "Digital State - Digital Government"
+    }
+}

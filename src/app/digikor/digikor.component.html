@@ -1,0 +1,66 @@
+
+<div class="parallex" name="top" >
+  <div class="large-hero__text-content">
+      <img class="finansz" src="assets/img/Finansz_k.png">
+      <h1>DIGIKOR</h1>
+      <h2>{{ 'DIGIKOR.TITLE' | translate }}</h2>
+      <div (click)="scroll(target)"><p #target class="target">”A jó kormányzást megalapozó közszolgálat-fejlesztés” <span class="glyphicon glyphicon-chevron-down"></span></p></div>
+  </div>
+</div>
+<div id="white"> 
+  <div class="row">
+      <div class="col md-12">
+        <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">DIGIKOR Műhely</i></h2>
+            <h5 class="center">Speeds up development</h5>
+            <p class="light">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+          </div>
+        <div class="charts">
+          <div id="pie_chart" [chartData]="pie_ChartData" [chartOptions] = "pie_ChartOptions" chartType="PieChart" GoogleChart></div>
+        </div>
+      <div class="arrows">
+        <a href="#top" class="btn  btn-lg"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <div (click)="scroll2(target2)" class="btn btn-lg"><span class="glyphicon glyphicon-chevron-down"></span></div> 
+      </div>
+    </div>
+  </div> 
+</div>               
+<div class="parallex2">
+  <div #target2 class="target2"></div>
+  <div class="large-hero__text-content2">
+    <h1>DIGIKOR</h1>
+    <h2>{{ 'DIGIKOR.TITLE' | translate }}</h2>
+    <div (click)="scroll(target3)"><p>”A jó kormányzást megalapozó közszolgálat-fejlesztés” <span class="glyphicon glyphicon-chevron-down"></span></p></div>
+  </div>
+  </div>
+  <div id="black" #target3 class="target3">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+           <h2 class="center brown-text"><i class="material-icons">DIGIKOR Műhely</i></h2>
+            <h5 class="center">Speeds up development</h5>
+            <p class="light">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+        </div>
+         <div class="arrows2">
+          <a href="#top" class="btn  btn-lg"><span class="glyphicon glyphicon-chevron-up"></span></a>
+          <div (click)="scroll4(target4)" class="btn btn-lg"><span class="glyphicon glyphicon-chevron-down"></span></div> 
+        </div>
+        <div class="icon-block2">
+            <h2 class="center brown-text"><i class="material-icons">DIGIKOR Műhely</i></h2>
+            <h5 class="center">Speeds up development</h5>
+            <p class="light">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+          </div>
+    </div>
+  </div> 
+
+
+</div>
+ 
+  
+<div class="parallex3" ></div>
+<div class="large-hero__text-content3">
+      <h1>DIGIKOR</h1>
+      <h2>{{ 'DIGIKOR.TITLE' | translate }}</h2>
+      <div><p>”A jó kormányzást megalapozó közszolgálat-fejlesztés”   <a href="#top" class="btn  btn-lg"><span class="glyphicon glyphicon-chevron-up"></span></a></p></div>
+  </div>
+<div #target4 class="target4"></div>

@@ -1,0 +1,23 @@
+ <div class="parallex" >
+     <div class="large-hero__text-content">
+      <h1>PUBLIKÁCIÓK</h1>
+      <h2>{{ 'DIGIKOR.TITLE' | translate }}</h2>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Go!</button>
+      </span>
+    </div>
+      <div (click)="scroll(target)"><p #target class="target">”A jó kormányzást megalapozó közszolgálat-fejlesztés” <span class="glyphicon glyphicon-chevron-down"></span></p></div>
+ </div>
+ </div>
+ <div class="container"> 
+  <div class="list" *ngFor="let project of projects" (click)="openProject($event)">
+    <button class="accordion">{{project.title}}</button>
+    <div class="panel">
+      <p>{{project.content}}</p>
+    </div>
+  </div>
+   <a href="publikaciok#top" class="btn  btn-lg"><span class="glyphicon glyphicon-chevron-up"></span></a>
+ <div class="Footer"></div>
+ </div>
