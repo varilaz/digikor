@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AgmCoreModule } from '@agm/core';
+
+
 
 @Component({
   selector: 'app-kapcsolat',
@@ -7,6 +8,10 @@ import { AgmCoreModule } from '@agm/core';
   styleUrls: ['./kapcsolat.component.css']
 })
 export class KapcsolatComponent implements OnInit {
+  title: string = 'My first AGM project';
+  lat: number = 47.481786;
+  lng: number = 19.085374;
+  zoom: number = 16;
 
   constructor() { }
 

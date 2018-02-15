@@ -1,4 +1,4 @@
-
+/*
 
 {
   "MENU": {
@@ -12,5 +12,8 @@
   },
     "DIGIKOR": {
     "TITLE": "Digitális Állam - Digitális Kormányzás"
+    },
+    "CONTACT": {
+      "CONTACT": "Contact"
     }
-}
+}*/

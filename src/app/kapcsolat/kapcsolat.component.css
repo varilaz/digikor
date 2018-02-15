@@ -134,6 +134,9 @@ input[type=submit]:hover {
     clear: both;
 }
 
+agm-map {
+  height: 100%px;
+}
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {

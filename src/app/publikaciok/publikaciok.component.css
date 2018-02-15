@@ -149,11 +149,17 @@
   width: 50%;
   text-align: center;
 }
-.container{
-margin-top: 20px;
-}
+
 
 .Footer{
     height: 200px;
     background-color: transparent;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
 }

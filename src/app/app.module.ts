@@ -5,6 +5,9 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {GoogleChart} from './angular2-google-chart.directive';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { AgmCoreModule } from '@agm/core';
 
 
 import { AppComponent } from './app.component';
@@ -61,6 +64,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
     RouterModule.forRoot(appRoutes),
     HttpClientModule,
     TranslateModule.forRoot({
@@ -70,6 +75,9 @@ export function HttpLoaderFactory(http: HttpClient) {
             deps: [HttpClient]
           }
         }),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBI3rGU9XkGe34GYTdYkf64JCL28WhFeZo'
+    })
 
   ],
   providers: [],
